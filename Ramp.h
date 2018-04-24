@@ -8,7 +8,7 @@ class Ramp
     void do_step();
     int get_val( byte index ); 
     int get_sp( byte index ); 
-    byte get_steps();
+    int get_steps();
   private:
     void _calc_steps( int steps );
     boolean _at_sp;
@@ -17,6 +17,6 @@ class Ramp
     float _sp[3];
     float _value[3];
     int _value_hw[3];
-    byte _steps;
+    int _steps;
 };
 
