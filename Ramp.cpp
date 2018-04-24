@@ -77,7 +77,7 @@ int Ramp::get_sp( byte index )
   return _sp[index];
 }
 
-byte Ramp::get_steps()
+int Ramp::get_steps()
 {
   return _steps;
 }
